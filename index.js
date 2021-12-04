@@ -2,7 +2,7 @@
 const axios  = require("axios").default
 const fs = require("fs");
 setInterval(() => {
-    axios("https://seasoned-abrupt-zucchini.glitch.me", {method:"get"})
+    axios("https://shazambt.glitch.me", {method:"get"})
 .then(res=>{
     fs.appendFileSync("./data/log.txt",res.data+" Date: "+new Date()+"\n" )
 })

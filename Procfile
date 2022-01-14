@@ -1,1 +1,1 @@
-starter: node index.js
+runner: node index.js
